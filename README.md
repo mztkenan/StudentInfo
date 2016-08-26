@@ -6,9 +6,9 @@ A program in C which reads student-related data from file and provides function 
  
 
 ###功能需求分析： 
-![image](http://github.com/mztkenan/StudentInfo/raw/master/images/function.png) 
+![image](/images/function.png) 
 ###用例图：  
-![image](http://github.com/mztkenan/StudentInfo/raw/master/images/Use%20case.png) 
+![image](/images/Use%20case.png) 
 ##【系统设计】
 ###数据存储结构：   
 将每个学生信息存入一个结构体中，并将结构体组成链表  
@@ -35,7 +35,7 @@ int confirm(const char *words);  //敏感操作确认
  
 ###排序算法：
 采用冒泡排序（Bubble Sort）
-流程图：![image](http://github.com/mztkenan/StudentInfo/raw/master/images/BubbleSort.png) 
+流程图：![image](/images/BubbleSort.png) 
 
 ##【附录】
 + 学生信息存储在"StudentInfo.dat"文件中  
