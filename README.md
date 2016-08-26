@@ -1,9 +1,14 @@
 # StudentInfo
-A program in C which reads student-related data from file and provides function of sort,deletion,add,etc.
+A program in C which reads student-related data from file and provides function of sort,deletion,add,etc.  
+用C语言实现从已知文档中读取学生信息，可以实现增加、删除、查找等功能的程序。   
+
 ##【需求分析】
-###功能需求分析：  
-用C语言实现从已知文档中读取学生信息，可以实现增加、删除、查找等功能的程序。  
  
+
+###功能需求分析： 
+![image](http://github.com/mztkenan/StudentInfo/raw/master/images/function.png) 
+###用例图：  
+![image](http://github.com/mztkenan/StudentInfo/raw/master/images/Use%20case.png) 
 ##【系统设计】
 ###数据存储结构：   
 将每个学生信息存入一个结构体中，并将结构体组成链表  
@@ -28,3 +33,11 @@ void read();              //从文件中读取信息
 void write();              //将所有信息输出到文件中  
 int confirm(const char *words);  //敏感操作确认  
  
+###排序算法：
+采用冒泡排序（Bubble Sort）
+流程图：![image](http://github.com/mztkenan/StudentInfo/raw/master/images/BubbleSort.png) 
+
+##【附录】
++ 学生信息存储在"StudentInfo.dat"文件中  
++ images文件夹存储说明图  
++ 工作环境：code blocks 16.01，GNU GCC compiler  
